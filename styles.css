@@ -1,0 +1,79 @@
+:root {
+    color-scheme: dark;
+    background: #222;
+}
+
+:root,
+input {
+    font-family: "Inter";
+}
+
+* {
+    transition: all 0.2s;
+}
+
+table#assignments-container {
+    border-spacing: 0;
+}
+
+tbody td input {
+    height: 2rem;
+    margin: 0;
+}
+
+thead td {
+    padding: .5rem;
+}
+
+input {
+    padding: .5rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+
+input[type=number] {
+    width: 6ch;
+}
+
+td {
+    border: 1px solid #eee;
+}
+
+table {
+    border-radius: 1rem;
+    border: 1px solid #eee;
+}
+
+thead td:first-child {
+    border-top-left-radius: 1rem;
+}
+
+thead td:last-child {
+    border-top-right-radius: 1rem;
+}
+
+tbody tr:last-child td:first-child,
+tbody tr:last-child td:first-child input {
+    border-bottom-left-radius: 1rem;
+}
+
+tbody tr:last-child td:last-child,
+tbody tr:last-child td:last-child input {
+    border-bottom-right-radius: 1rem;
+}
+
+.category input {
+    width: 10ch;
+}
+
+thead td {
+    font-weight: 600;
+    background: rgb(18, 59, 125);
+    color: white;
+}
+
+.name input {
+    width: 40ch;
+}
